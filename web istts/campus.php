@@ -12,7 +12,7 @@
     			</div>
           <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5">
             <h2 class="mb-4">Our Campus</h2>
-            <p>STTS was initially known as Institut Teknisi Elektro Surabaya (ITES), founded on March 1, 1979, located on Jalan Bali 17, Surabaya, under Yayasan Perguruan Tinggi Teknik Nusantara foundation. The establishment of this institution was based on the awareness to participate in supplying the needs of higher education, especially in electrical engineering.</p>
+            <p>ISTTS was initially known as Institut Teknisi Elektro Surabaya (ITES), founded on March 1, 1979, located on Jalan Bali 17, Surabaya, under Yayasan Perguruan Tinggi Teknik Nusantara foundation. The establishment of this institution was based on the awareness to participate in supplying the needs of higher education, especially in electrical engineering.</p>
 			<p>For the very first time the Ministry of Education and Culture implemented full accreditation system, STTS was announced as an Accredited Higher Institution (the first in Eastern Indonesia among similar private universities).</p>
 			<p>Having recognized as the best performing Sekolah Tinggi in East Java, STTS had officially received an honor to become an Institute.
 			<p>In year 2022, iSTTS shall be a higher institution in science, technology, and design which can compete at Southeast Asia level, emphasizing quality, innovation, and Indonesian values.</p>
