@@ -25,53 +25,42 @@
   <body>
       <?php
         include("topnavbar.php");
+        include("title.php");
       ?>
-	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container d-flex align-items-center px-4">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-	      <form action="#" class="searchform order-lg-last">
-          <div class="form-group d-flex">
-            <input type="text" class="form-control pl-3" placeholder="Search">
-            <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
-          </div>
-        </form>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    
-   <?php
-    include("title.php");
-   ?>
-		
+   
 		<section class="ftco-section ftco-no-pt ftc-no-pb">
 			<div class="container">
 				<div class="row d-flex">
-					<div class="col-md-5 order-md-last wrap-about wrap-about d-flex align-items-stretch">
-						<div class="img" style="background-image: url(images/about.jpg); border"></div>
+					<!-- <div class="col-md-5 order-md-last wrap-about wrap-about d-flex align-items-stretch"> -->
+						<!-- <div class="img" style="background-image: url(images/about.jpg); border"></div> -->
+            <div class="col-md-5 wrap-about py-5 pr-md-4 ftco-animate">
+            <h2 class="mb-4">Vision</h2>
+            <p>In year 2022, iSTTS shall be a higher institution in science, technology, and design which can compete at Southeast Asia level, emphasizing quality, innovation, and Indonesian values.</p>
+            <h2 class="mb-4">Mission</h2>
+            <ul>
+              <li>Memberikan materi pendidikan dan pengajaran terbaik di bidang sains, teknologi, dan desain, dengan beberapa warna keindonesiaan di dalamnya, mengacu pada berbagai standar internasional, disesuaikan dengan situasi dan kondisi kebutuhan dan perkembangan sosial, ekonomi, dan budaya masyarakat Asia Tenggara.</li>
+              <li>Melakukan penelitian berstandar internasional di bidang sains, teknologi, dan desain, sesuai kebutuhan dan perkembangan sosial, ekonomi, dan budaya masyarakat Asia Tenggara, menggunakan keindonesiaan sebagai bagian dari elemen penelitian.</li>
+              <li>Menyediakan berbagai solusi inovatif dan unggulan berbasis sains, teknologi, dan desain bagi berbagai masalah sosial, ekonomi, dan budaya, mengacu pada berbagai standar internasional, khususnya dalam menghadapi pasar masyarakat ekonomi ASEAN (AEC)</li>
+            </ul>
 					</div>
-					<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
-          	<h2 class="mb-4">ISTTS Established Since 1979</h2>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their</p>
+					<div class="col-md-5 wrap-about py-5 pr-md-4 ftco-animate">
+          	<h2 class="mb-4">Established Since 1979</h2>
+            <p>ISTTS was initially known as Institut Teknisi Elektro Surabaya (ITES), founded on March 1, 1979, located on Jalan Bali 17, Surabaya, under Yayasan Perguruan Tinggi Teknik Nusantara foundation. The establishment of this institution was based on the awareness to participate in supplying the needs of higher education, especially in electrical engineering.</p>
+            <p>For the very first time the Ministry of Education and Culture implemented full accreditation system, STTS was announced as an Accredited Higher Institution (the first in Eastern Indonesia among similar private universities).</p>
+            <p>Having recognized as the best performing Sekolah Tinggi in East Java, STTS had officially received an honor to become an Institute.
+            <p>In year 2022, iSTTS shall be a higher institution in science, technology, and design which can compete at Southeast Asia level, emphasizing quality, innovation, and Indonesian values.</p>
+		  
 					</div>
 				</div>
 			</div>
 		</section>
-		
-
-		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<?php
+      include("campus.php");
+      include("testi.php");
+      include("gallery.php");
+      include("footer.php");
+    ?>
+		<!-- <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2 d-flex">
     			<div class="col-md-6 align-items-stretch d-flex">
@@ -132,9 +121,9 @@
           </div>
         </div>
     	</div>
-    </section>
+    </section> -->
 
-    <section class="ftco-section testimony-section">
+    <!-- <section class="ftco-section testimony-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -219,10 +208,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
 
-		<section class="ftco-gallery">
+		<!-- <section class="ftco-gallery">
     	<div class="container-wrap">
     		<div class="row no-gutters">
 					<div class="col-md-3 ftco-animate">
@@ -342,7 +331,7 @@
         </div>
       </div>
     </footer>
-    
+     -->
   
 
   <!-- loader -->
@@ -364,6 +353,13 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#about").addClass("active");
+      $("#title").html("About Us");
+      $("#title2").html("About Us");
+    });
+  </script>
     
   </body>
 </html>
